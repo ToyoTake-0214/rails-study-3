@@ -4,9 +4,17 @@ ja:
       create: 登録
       submit: 保存
       update: 更新
+      user:
+        create: 登録
     label:
       email: メールアドレス
       password: パスワード
+      user:
+        last_name: 姓
+        first_name: 名
+        email: メールアドレス
+        password: パスワード
+        password_confirmation: パスワード確認
   user_sessions:
     new:
       title: ログイン
@@ -17,6 +25,7 @@ ja:
     new:
       title: ユーザー登録
       to_login_page: ログインページへ
+      create: 登録
   header:
     login: ログイン
     logout: ログアウト
