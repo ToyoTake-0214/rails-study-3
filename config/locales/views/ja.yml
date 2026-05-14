@@ -1,0 +1,36 @@
+ja:
+  helpers:
+    submit:
+      create: 登録
+      submit: 保存
+      update: 更新
+      user:
+        create: 登録
+    label:
+      email: メールアドレス
+      password: パスワード
+      user:
+        last_name: 姓
+        first_name: 名
+        email: メールアドレス
+        password: パスワード
+        password_confirmation: パスワード確認
+  user_sessions:
+    new:
+      title: ログイン
+      login: ログイン
+      to_register_page: 登録ページ
+      password_forget: パスワードをお忘れの方はこちら
+  users:
+    new:
+      title: ユーザー登録
+      to_login_page: ログインページへ
+      create: 登録
+  header:
+    login: ログイン
+    logout: ログアウト
+    board: 掲示板
+    board_index: 掲示板一覧
+    create_board: 掲示板作成
+    bookmark_index: ブックマーク一覧
+    profile: プロフィール
