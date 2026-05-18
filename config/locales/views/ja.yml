@@ -1,6 +1,8 @@
 ja:
   defaults:
     flash_message:
+      created: "%{item}を作成しました"
+      not_created: "%{item}を作成できませんでした"
       require_login: ログインしてください
   helpers:
     submit:
@@ -44,3 +46,6 @@ ja:
     create_board: 掲示板作成
     bookmark_index: ブックマーク一覧
     profile: プロフィール
+  boards:
+    new:
+      title: 掲示板作成
