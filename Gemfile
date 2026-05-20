@@ -48,6 +48,9 @@ gem "rubocop"
 #i18n
 gem 'rails-i18n','~> 7.0.0'
 
+#Carriewave
+gem 'carrierwave', '~> 2.2.2'
+
 #draper
 gem 'draper','4.0.2'
 
