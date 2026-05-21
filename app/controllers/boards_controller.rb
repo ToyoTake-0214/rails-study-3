@@ -16,6 +16,9 @@ class BoardsController < ApplicationController
       render :new,status: :unprocessable_entity
     end
   end
+  def show
+    @board = Board.find(params[:id])
+  end
 
   private
 
