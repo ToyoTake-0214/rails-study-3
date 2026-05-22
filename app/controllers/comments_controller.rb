@@ -4,7 +4,7 @@ class CommentsController < ApplicationController
     if comment.save
       redirect_to board_path(comment.board), success: t('defaults.flash_message.created', item: Comment.model_name.human)
     else
-      redirect_to board_path(comment.board), denger: t('defaults.flash_message.not_created', item: Comment.model_name.human)
+      redirect_to board_path(comment.board), danger: t('defaults.flash_message.not_created', item: Comment.model_name.human)
     end
   end
 
