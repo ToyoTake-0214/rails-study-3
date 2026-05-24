@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   post 'login',to:'user_sessions#create'
   delete'logout',to:'user_sessions#destroy'
   resources :users, only: %i[new create]
-  resources :boards, only: %i[index new create show ] do
+  resources :boards, only: %i[index new create show edit destroy] do
     resources :comments, only: %i[create edit destroy], shallow:true
   end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
